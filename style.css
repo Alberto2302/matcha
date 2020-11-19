@@ -4,6 +4,13 @@ body{
     margin:0;
     
 }
+main{
+  text-align: center;
+  margin-top: 285px;
+ }
+ main > img{
+   height: 70%;
+ }
 
 h1{
     color: #025157;
@@ -46,6 +53,9 @@ li{
     margin-right: 25px;
     margin-left: 25px;
   }
+  .menu-item a {
+    color: #025157;
+  }
   .actions {
     width: 15%;
     text-align: right;
@@ -58,6 +68,23 @@ li{
   .actions a {
     color: #67b54b;
   }
+  .banner{
+    margin-top: 32px;
+    
+  }
+  .intro{
+    
+    margin-top: 32px;
+  }
+  .intro img {
+    width: 70%;
+    
+  }
+
+
+
+
+
   .actions button {
     color: white;
     background-color: #67b54b;
@@ -71,13 +98,7 @@ li{
   .logo > img {
     height: 100%;
   }
-main{
- text-align: center;
- margin-top: 285px;
-}
-main > img{
-  height: 70%;
-}
+
 .promo{
   display:flex;
   width: 70%;
